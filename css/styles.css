@@ -556,13 +556,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    fill: var(--LIGHTSLATE);
+    color: var(--LIGHTSLATE);
 }
 
 .link-customers:hover,
 .link-customers:focus {
     border-color: var(--hover);
-    fill: var(--hover);
+    color: var(--hover);
 }
 
 .customers-item {
@@ -574,4 +574,6 @@ body {
     height: 88px;
 }
 
-.costumer-svg {}
+.costumer-svg {
+    fill: currentColor;
+}
